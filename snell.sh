@@ -192,7 +192,7 @@ Change_snell_info(){
 Update_Shell(){
 	rm -rf /root/snell.sh
 	cd /root/
-	wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Newlearner365/sh/master/snell.sh
+	wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/loyio/auto-script/main/snell.sh
 	chmod +x snell.sh
 	echo "snell.sh 已更新至最新版本"
 	./snell.sh
@@ -200,7 +200,7 @@ Update_Shell(){
 
 check_sys
 echo -e "       snell 一键管理脚本
-  ---- Newlearner365 | My Blog:newlearner.site ----
+  ---- Loyio | My Blog:github.com/loyio/blog/issues ----
   
  0. 升级脚本
 ————————————
@@ -242,11 +242,3 @@ echo -e "       snell 一键管理脚本
 		echo "请输入正确数字 [0-7]"
 		;;
 	esac 
-
- 
-
-
-
-
-
-
